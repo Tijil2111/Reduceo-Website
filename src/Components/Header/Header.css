@@ -1,0 +1,61 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-flow: row;
+  padding: 15px;
+  margin: 0 auto;
+  position: fixed;
+  margin-top: -20px;
+  width: 100%;
+  z-index: 2;
+  background: white;
+  box-shadow: 5px 5px 5px #ff5722;
+}
+.header-logo {
+  margin-right: auto;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.header-logo a {
+  text-decoration: none;
+  color: #ff5722;
+}
+
+.header-links {
+  margin-left: auto;
+  gap: 20px;
+  display: flex;
+  padding-top: 20px;
+  padding-right: 1%;
+}
+
+.header-links a {
+  color: #ff5722;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-top: 10px;
+  justify-content: center;
+}
+.heading-contact {
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
